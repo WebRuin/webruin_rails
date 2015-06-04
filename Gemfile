@@ -23,6 +23,30 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+# Kaminari - https://github.com/amatsuda/kaminari
+gem 'kaminari'
+
+# factory_girl - https://github.com/thoughtbot/factory_girl
+gem 'factory_girl'
+
+# RMagick - https://github.com/rmagick/rmagick
+gem 'rmagick'
+
+# CanCan - https://github.com/ryanb/cancan
+gem 'cancan'
+
+# Formtastic - https://github.com/justinfrench/formtastic/
+gem 'formtastic', '~> 3.0'
+
+# Capistrano - https://github.com/capistrano/capistrano/
+gem 'capistrano', '~> 3.4.0'
+
+# Resque - https://github.com/resque/resque
+gem "resque", "~> 2.0.0.pre.1", github: "resque/resque"
+
+# Capybara - https://github.com/jnicklas/capybara
+gem 'capybara'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
