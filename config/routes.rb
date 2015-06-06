@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'pricing/index'
+
   match 'learn' => 'learn#index', :via => [:get], :as => 'learn'
   match 'code' => 'code#index', :via => [:get], :as => 'code'
   match 'play' => 'play#index', :via => [:get], :as => 'play'
