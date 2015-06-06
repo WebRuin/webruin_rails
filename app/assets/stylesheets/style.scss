@@ -544,7 +544,7 @@ footer ul li img {
 .aboutme {
   top: 0;
   left: 0;
-  background-image: url(../img/about_me.png);
+  background-image: url(asset-path('about_me.png'));
   background-size: cover;
 }
 .twitter {
@@ -567,7 +567,7 @@ footer ul li img {
   left: 79px;
   width: 55px;
   height: 55px;
-  background-image: url(../img/treehouse.png);
+  background-image: url(asset-path('treehouse.png'));
   background-size: cover;
 }
 
@@ -684,7 +684,7 @@ main-nav ul.is-visible {
   background-position: center center;
   z-index: 1; }
 
-/* line 285, ../../src/stylesheets/style.scss */
+/* line 285, asset-path('asset-path('src/stylesheets/style.scss */
 .fixed-bg h1, .fixed-bg h2 {
   position: absolute;
   left: 50%;
@@ -706,7 +706,7 @@ main-nav ul.is-visible {
 
 .london1,
 .fixed-bg.bg-1 {
-  background: url(../img/london1.png) no-repeat center fixed;
+  background: url(asset-path('london1.png')) no-repeat center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -718,7 +718,7 @@ main-nav ul.is-visible {
 .london2,
 .fixed-bg.bg-3 {
   background: linear-gradient(180deg, rgba(64, 45, 28, 0.5), transparent 90%),
-              url(../img/london2.png) no-repeat center fixed;
+              url(asset-path('london2.png')) no-repeat center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -730,7 +730,7 @@ main-nav ul.is-visible {
 .london3,
 .fixed-bg.bg-4 {
   background: linear-gradient(180deg, rgba(66, 70, 104, 0.5), transparent 90%),
-              url(../img/london3.png) no-repeat center fixed;
+              url(asset-path('london3.png')) no-repeat center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

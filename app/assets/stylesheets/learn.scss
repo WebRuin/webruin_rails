@@ -34,15 +34,14 @@
 }
 
 .learn_box .treehouse_learn {
-  background-image: url('../img/teamtreehouse-big.png');
+  background-image: url(asset-path('img/teamtreehouse-big.png'));
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 .learn_box .treehouse_learn {
-  linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url('../img/teamtreehouse-big.png');
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(asset-path('img/teamtreehouse-big.png'));
 }
 .learn_box .treehouse_learn:hover:before {
   content: 'Team Treehouse';
@@ -56,15 +55,14 @@
 }
 
 .learn_box .firehoseproject {
-  background-image: url('../img/firehoseproject.png');
+  background-image: url(asset-path('img/firehoseproject.png'));
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;  
 }
 .learn_box .firehoseproject:hover {
-  linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url('../img/.firehoseproject.png');
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(asset-path('img/.firehoseproject.png'));
 }
 .learn_box .firehoseproject:hover:before {
   content: 'The Firehose Project';
@@ -77,15 +75,14 @@
 }
 
 .learn_box .csstricks {
-  background-image: url('../img/css-tricks.png');
+  background-image: url(asset-path('img/css-tricks.png'));
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;  
 }
 .learn_box .css-tricks:hover {
-  linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url('../img/.css-tricks.png');
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(asset-path('img/.css-tricks.png'));
 }
 .learn_box .treehouse_learn:hover:before {
   content: 'CSS Tricks';
@@ -98,14 +95,13 @@
 }
 
 .learn_box .codrops {
-  background-image: url('../img/codrops.png');
+  background-image: url(asset-path('img/codrops.png'));
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }.learn_box .codrops {
-  linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url('../img/.codrops.png');
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(asset-path('img/.codrops.png'));
 }
 .learn_box .codrops:hover:before {
   content: 'Codrops';
@@ -118,15 +114,14 @@
 }
 
 .learn_box .codyhouse {
-  background-image: url('../img/codrops.png');
+  background-image: url(asset-path('img/codrops.png'));
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 .learn_box .codyhouse {
-  linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url('../img/.codyhouse.png');
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(asset-path('img/.codyhouse.png'));
 }
 .learn_box .treehouse_learn:hover:before {
   content: 'Codyhouse';
@@ -139,15 +134,14 @@
 }
 
 .learn_box .mdn {
-  background-image: url('../img/mdn.png');
+  background-image: url(asset-path('img/mdn.png'));
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 .learn_box .mdn {
-  linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url('../img/.mdn.png');
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(asset-path('img/.mdn.png'));
 } 
 .learn_box .mdn:hover:before {
   content: 'Mozilla Developer Network';
@@ -160,15 +154,14 @@
 }
 
 .learn_box .msdn {
-  background-image: url('../img/msdn.png');
+  background-image: url(asset-path('img/msdn.png'));
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 .learn_box .msdn {
-  linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url('../img/.msdn.png');
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(asset-path('img/.msdn.png'));
 }
 .learn_box .msdn:hover:before {
   content: 'Microsoft Developer Network';

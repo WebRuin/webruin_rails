@@ -1,17 +1,11 @@
 Rails.application.routes.draw do
-  get 'style_guide/index'
-
-  get 'gallery/index'
-
-  get 'contact/index'
-
-  get 'faq/index'
-
-  get 'code/index'
-
-  get 'play/index'
-
-  get 'learn/index'
+  match 'learn' => 'learn#index', :via => [:get], :as => 'learn'
+  match 'code' => 'code#index', :via => [:get], :as => 'code'
+  match 'play' => 'play#index', :via => [:get], :as => 'play'
+  match 'pricing' => 'pricing#index', :via => [:get], :as => 'pricing'
+  match 'gallery' => 'galleryindex', :via => [:get], :as => 'gallery'
+  match 'faq' => 'faq#index', :via => [:get], :as => 'faq'
+  match 'contact' => 'contact#index', :as => 'contact', via: [:get, :post]
 
   get 'home/index'
 
