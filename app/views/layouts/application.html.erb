@@ -15,9 +15,9 @@
         <li><i class='fa fa-bars'></i></li>
       </ul>
       <ul class='right top-menu-drop-down'>
-        <li><a href='/'>Home</a></li>
+        <li><a href='/'<%= current_page?(class: cp(nav_path)) %>Home</a></li>
         <li><a href='/learn'>Learn</a></li>
-        <li><a href='/code' class='current'>Code</a></li>
+        <li><a href='/code'>Code</a></li>
         <li><a href='/play'>Play</a></li>
         <li><a href='/pricing'>Pricing</a></li>
         <li><a href='/gallery'>Gallery</a></li>
