@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'pricing/index'
+
   get 'style_guide/index'
 
   get 'contact/index'

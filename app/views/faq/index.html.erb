@@ -1,2 +1,268 @@
-<h1>Faq#index</h1>
-<p>Find me in app/views/faq/index.html.erb</p>
+<%= stylesheet_link_tag 'faq.scss' %>
+<section class="page_header">
+   <div class="header-box">
+    <h1>FAQ</h1>
+  </div>
+</section>
+<section class="cd-faq">
+<ul class="cd-faq-categories">
+  <li><a class="selected" href="#basics">Basics</a></li>
+  <li><a href="#technology_frameworks">Technology/Frameworks</a></li>
+  <li><a href="#mobile">Mobile</a></li>
+  <li><a href="#payments">Payments</a></li>
+  <li><a href="#privacy">Privacy</a></li>
+  <li><a href="#delivery">Delivery</a></li>
+</ul> <!-- cd-faq-categories -->
+
+<div class="cd-faq-items">
+  <ul id="basics" class="cd-faq-group">
+    <li class="cd-faq-title"><h2>Basics</h2></li>
+    <li>
+      <a class="cd-faq-trigger" href="#0">How do I name my website?</a>
+      <div class="cd-faq-content">
+        <p>To name your website, you need to purchase a URL "A URL is one type of Uniform Resource Identifier (URI); the generic term for all types of names and addresses that refer to objects on the World Wide Web. The term "Web address" is a synonym for a URL that uses the HTTP / HTTPS protocol." -<a href="webopedia.com/TERM/U/URL.html">Webopedia</a></p>
+        <p>I bought the URL webruin.co.uk at <a href="123-reg.co.uk">123 Reg</a>; however, in the US, <a href="godaddy.com">Godaddy</a>. There are many other domain registars on the internet.</p>
+      </div> <!-- cd-faq-content -->
+    </li>
+
+    <li>
+      <a class="cd-faq-trigger" href="#0">Can my website have more than name?</a>
+      <div class="cd-faq-content">
+        <p>Yes.  I website can have as many URLs as needed.  In the setup of the domain, you simply need to add the an A record for eanch domain yoju want to add.  If this seem to advanced, you can get assistance with Godaddy or other registar you are using.</p>
+      </div> <!-- cd-faq-content -->
+    </li>
+
+    <li>
+      <a class="cd-faq-trigger" href="#0">Where do the files that make my website go?</a>
+      <div class="cd-faq-content">
+        <p>Godaddy, or other registars provide hosting.  Hosting is a paid service that allows you via SFPT or and online drag-and-drop inferface, to store the files that makes up your website.</p>
+      </div> <!-- cd-faq-content -->
+    </li>
+
+    <li>
+      <a class="cd-faq-trigger" href="#0">What is SFTP</a>
+      <div class="cd-faq-content">
+        <p>SFPT (Secured File Transfer Protocal) is the mechanism through which you can transfer filed to and/or from your hosting service.</p>
+      </div> <!-- cd-faq-content -->
+    </li>
+  </ul> <!-- cd-faq-group -->
+
+  <ul id="technology_frameworks" class="cd-faq-group">
+    <li class="cd-faq-title"><h2>Technology/Frameworks</h2></li>
+    <li>
+      <a class="cd-faq-trigger" href="#html5">What is "HTML5"?</a>
+      <div class="cd-faq-content">
+        <p>"HTML5 is a core technology markup language of the Internet used for structuring and presenting content for the World Wide Web. As of October 2014 [update] this is the final and complete fifth revision of the HTML standard of the World Wide Web Consortium (W3C). The previous version, HTML 4, was standardised in 1997." -<a href="en.wikipedia.org/wiki/HTML5">Wikipedia</a></p>
+      </div> <!-- cd-faq-content -->
+    </li>
+
+    <li>
+      <a class="cd-faq-trigger" href="#css3">What is "CSS3"?</a>
+      <div class="cd-faq-content">
+        <p>"CSS3 is the latest evolution of the Cascading Style Sheets language and aims at extending CSS2.1. It brings a lot of long-awaited novelties, like rounded corners, shadows, gradients, transitions or animations, as well as new layouts like multi-columns, flexible box or grid layouts." -<a href="developer.mozilla.org/en-US/docs/Web/CSS/CSS3">Mozilla Developer Network</a></p>
+      </div> <!-- cd-faq-content -->
+    </li>
+
+    <li>
+      <a class="cd-faq-trigger" href="#sass">What is "SASS"?</a>
+      <div class="cd-faq-content">
+        <p>"Sass is the most mature, stable, and powerful professional grade CSS extension language in the world." -<a href="sass-lang.com/">SASS</a></p>
+      </div> <!-- cd-faq-content -->
+    </li>
+
+    <li>
+      <a class="cd-faq-trigger" href="#gulp">What is "Gulp"?</a>
+      <div class="cd-faq-content">
+        <p>"Build system automating tasks: minification and copying of all JavaScript files, static images, capable of watching files to automatically rerun the task when a file is updated." -<a href="coderesponsible.com/task-runner/">SASS</a></p>
+      </div> <!-- cd-faq-content -->
+    </li>
+
+    <li>
+      <a class="cd-faq-trigger" href="#ror">What is "Ruby on Rails"?</a>
+      <div class="cd-faq-content">
+        <p>"Rails is a web application development framework written in the Ruby language. It is designed to make programming web applications easier by making assumptions about what every developer needs to get started. It allows you to write less code while accomplishing more than many other languages and frameworks." -<a href="guides.rubyonrails.org/getting_started.html">Ruby on Rails Guides</a></p>
+      </div> <!-- cd-faq-content -->
+    </li>
+
+    <li>
+      <a class="cd-faq-trigger" href="#foundation">What is "Foundation"?</a>
+      <div class="cd-faq-content">
+        <p>"It’s the first front-end framework created for developing fully responsive web apps." -<a href="foundation.zurb.com">Zurb Foundation</a></p>
+      </div> <!-- cd-faq-content -->
+    </li>
+  </ul> <!-- cd-faq-group -->
+
+  <ul id="mobile" class="cd-faq-group">
+    <li class="cd-faq-title"><h2>Mobile</h2></li>
+    <li>
+      <a class="cd-faq-trigger" href="#0">What is "mobile first"?</a>
+      <div class="cd-faq-content">
+        <p><i>Mobile First</i> - When starting a new website, app, blog, etc... it my approace and considered best practices to start <a href="https://developer.mozilla.org/en-US/Apps/Design/UI_layout_basics/Mobile_first">mobile first</a>.</p>
+        <p>In a nutshell, the concept of mobile first is to start with the most important, often most simple information you want on your website and design around that first for mobile devices (phones, tablets, even watches).</p>
+      </div> <!-- cd-faq-content -->
+    </li>
+
+<!--
+    <li>
+      <a class="cd-faq-trigger" href="#0">How do I upload files from my phone or tablet?</a>
+      <div class="cd-faq-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi tempore, placeat quisquam rerum! Eligendi fugit dolorum tenetur modi fuga nisi rerum, autem officiis quaerat quos. Magni quia, quo quibusdam odio. Error magni aperiam amet architecto adipisci aspernatur! Officia, quaerat magni architecto nostrum magnam fuga nihil, ipsum laboriosam similique voluptatibus facilis nobis? Eius non asperiores, nesciunt suscipit veniam blanditiis veritatis provident possimus iusto voluptas, eveniet architecto quidem quos molestias, aperiam eum reprehenderit dolores ad deserunt eos amet. Vero molestiae commodi unde dolor dicta maxime alias, velit, nesciunt cum dolorem, ipsam soluta sint suscipit maiores mollitia assumenda ducimus aperiam neque enim! Quas culpa dolorum ipsam? Ipsum voluptatibus numquam natus? Eligendi explicabo eos, perferendis voluptatibus hic sed ipsam rerum maiores officia! Beatae, molestias!</p>
+      </div>  cd-faq-content
+    </li>
+-->
+
+    <li>
+      <a class="cd-faq-trigger" href="#0">How do I link to a file or folder?</a>
+      <div class="cd-faq-content">
+        <p>Using <a href="dropbox.com">DropBox</a>, <a href="drive.google.com">Google Drive</a> and other online file sharing service, you can "embed" files or folders in your site.  Each service will provide intructuctions on how to do that.</p>
+      </div> <!-- cd-faq-content -->
+    </li>
+  </ul> <!-- cd-faq-group -->
+
+  <ul id="payments" class="cd-faq-group">
+    <li class="cd-faq-title"><h2>Payments</h2></li>
+    <li>
+      <a class="cd-faq-trigger" href="#0">Can I have an invoice for my subscription?</a>
+      <div class="cd-faq-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit quidem delectus rerum eligendi mollitia, repudiandae quae beatae. Et repellat quam atque corrupti iusto architecto impedit explicabo repudiandae qui similique aut iure ipsum quis inventore nulla error aliquid alias quia dolorem dolore, odio excepturi veniam odit veritatis. Quo iure magnam, et cum. Laudantium, eaque non? Tempore nihil corporis cumque dolor ipsum accusamus sapiente aliquid quis ea assumenda deserunt praesentium voluptatibus, accusantium a mollitia necessitatibus nostrum voluptatem numquam modi ab, sint rem.</p>
+      </div> <!-- cd-faq-content -->
+    </li>
+
+    <li>
+      <a class="cd-faq-trigger" href="#0">Why did my credit card or PayPal payment fail?</a>
+      <div class="cd-faq-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur accusantium dolorem vel, ad, nostrum natus eos, nemo placeat quos nisi architecto rem dolorum amet consectetur molestiae reprehenderit cum harum commodi beatae necessitatibus. Mollitia a nostrum enim earum minima doloribus illum autem, provident vero et, aspernatur quae sunt illo dolorem. Corporis blanditiis, unde, neque, adipisci debitis quas ullam accusantium repudiandae eum nostrum quis! Velit esse harum qui, modi ratione debitis alias laboriosam minus eaque, quod, itaque labore illo totam aut quia fuga nemo. Perferendis ipsa laborum atque assumenda tempore aspernatur a eos harum non id commodi excepturi quaerat ullam, explicabo, incidunt ipsam, accusantium quo magni ut! Ratione, magnam. Delectus nesciunt impedit praesentium sed, aliquam architecto dolores quae, distinctio consectetur obcaecati esse, consequuntur vel sit quis blanditiis possimus dolorum. Eaque architecto doloremque aliquid quae cumque, vitae perferendis enim, iure fugiat, soluta aut!</p>
+      </div> <!-- cd-faq-content -->
+    </li>
+
+    <li>
+      <a class="cd-faq-trigger" href="#0">Why does my bank statement show multiple charges for one upgrade?</a>
+      <div class="cd-faq-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
+      </div> <!-- cd-faq-content -->
+    </li>
+  </ul> <!-- cd-faq-group -->
+
+  <ul id="privacy" class="cd-faq-group">
+    <li class="cd-faq-title"><h2>Privacy</h2></li>
+    <li>
+      <a class="cd-faq-trigger" href="#0">Can I specify my own private key?</a>
+      <div class="cd-faq-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit quidem delectus rerum eligendi mollitia, repudiandae quae beatae. Et repellat quam atque corrupti iusto architecto impedit explicabo repudiandae qui similique aut iure ipsum quis inventore nulla error aliquid alias quia dolorem dolore, odio excepturi veniam odit veritatis. Quo iure magnam, et cum. Laudantium, eaque non? Tempore nihil corporis cumque dolor ipsum accusamus sapiente aliquid quis ea assumenda deserunt praesentium voluptatibus, accusantium a mollitia necessitatibus nostrum voluptatem numquam modi ab, sint rem.</p>
+      </div> <!-- cd-faq-content -->
+    </li>
+
+    <li>
+      <a class="cd-faq-trigger" href="#0">My files are missing! How do I get them back?</a>
+      <div class="cd-faq-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
+      </div> <!-- cd-faq-content -->
+    </li>
+
+    <li>
+      <a class="cd-faq-trigger" href="#0">How can I access my account data?</a>
+      <div class="cd-faq-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus magni vero deserunt enim et quia in aliquam, rem tempore voluptas illo nisi veritatis quas quod placeat ipsa! Error qui harum accusamus incidunt at libero ipsum, suscipit dolorum esse explicabo in eius voluptates quidem voluptatem inventore amet eaque deserunt veniam dignissimos excepturi? Dolore, quo amet nostrum autem nemo. Sit nam assumenda, corporis ea sunt distinctio nostrum doloribus alias, beatae nesciunt dolore saepe consequuntur minima eveniet porro dolor officiis maiores ab obcaecati officia enim aliquam. Itaque fuga molestiae hic accusantium atque corporis quia id sequi enim vero? Hic aperiam sint facilis aliquam quia, accusamus tenetur earum totam enim est, error. Iusto, reiciendis necessitatibus molestias. Voluptatibus eos explicabo repellat nesciunt nam vero minima.</p>
+      </div> <!-- cd-faq-content -->
+    </li>
+
+    <li>
+      <a class="cd-faq-trigger" href="#0">How can I control if other search engines can link to my profile?</a>
+      <div class="cd-faq-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
+      </div> <!-- cd-faq-content -->
+    </li>
+  </ul> <!-- cd-faq-group -->
+
+  <ul id="delivery" class="cd-faq-group">
+    <li class="cd-faq-title"><h2>Delivery</h2></li>
+    <li>
+      <a class="cd-faq-trigger" href="#0">What should I do if my order hasn't been delivered yet?</a>
+      <div class="cd-faq-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit quidem delectus rerum eligendi mollitia, repudiandae quae beatae. Et repellat quam atque corrupti iusto architecto impedit explicabo repudiandae qui similique aut iure ipsum quis inventore nulla error aliquid alias quia dolorem dolore, odio excepturi veniam odit veritatis. Quo iure magnam, et cum. Laudantium, eaque non? Tempore nihil corporis cumque dolor ipsum accusamus sapiente aliquid quis ea assumenda deserunt praesentium voluptatibus, accusantium a mollitia necessitatibus nostrum voluptatem numquam modi ab, sint rem.</p>
+      </div> <!-- cd-faq-content -->
+    </li>
+
+    <li>
+      <a class="cd-faq-trigger" href="#0">How can I find your international delivery information?</a>
+      <div class="cd-faq-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
+      </div> <!-- cd-faq-content -->
+    </li>
+
+    <li>
+      <a class="cd-faq-trigger" href="#0">Who takes care of shipping?</a>
+      <div class="cd-faq-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
+      </div> <!-- cd-faq-content -->
+    </li>
+
+    <li>
+      <a class="cd-faq-trigger" href="#0">How do returns or refunds work?</a>
+      <div class="cd-faq-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit quidem delectus rerum eligendi mollitia, repudiandae quae beatae. Et repellat quam atque corrupti iusto architecto impedit explicabo repudiandae qui similique aut iure ipsum quis inventore nulla error aliquid alias quia dolorem dolore, odio excepturi veniam odit veritatis. Quo iure magnam, et cum. Laudantium, eaque non? Tempore nihil corporis cumque dolor ipsum accusamus sapiente aliquid quis ea assumenda deserunt praesentium voluptatibus, accusantium a mollitia necessitatibus nostrum voluptatem numquam modi ab, sint rem.</p>
+      </div> <!-- cd-faq-content -->
+    </li>
+
+    <li>
+      <a class="cd-faq-trigger" href="#0">How do I use shipping profiles?</a>
+      <div class="cd-faq-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
+      </div> <!-- cd-faq-content -->
+    </li>
+
+    <li>
+      <a class="cd-faq-trigger" href="#0">How does your UK Next Day Delivery service work?</a>
+      <div class="cd-faq-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
+      </div> <!-- cd-faq-content -->
+    </li>
+
+    <li>
+      <a class="cd-faq-trigger" href="#0">How does your Next Day Delivery service work?</a>
+      <div class="cd-faq-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
+      </div> <!-- cd-faq-content -->
+    </li>
+
+    <li>
+      <a class="cd-faq-trigger" href="#0">When will my order arrive?</a>
+      <div class="cd-faq-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
+      </div> <!-- cd-faq-content -->
+    </li>
+
+    <li>
+      <a class="cd-faq-trigger" href="#0">When will my order ship?</a>
+      <div class="cd-faq-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
+      </div> <!-- cd-faq-content -->
+    </li>
+  </ul> <!-- cd-faq-group -->
+</div> <!-- cd-faq-items -->
+<a href="#0" class="cd-close-panel">Close</a>
+</section>
+<div class="ads">
+  <section id="ads" class="more">
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <!-- FAQ Bottom 1 -->
+      <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-client="ca-pub-3003160606944426"
+       data-ad-slot="6024244399"
+       data-ad-format="auto"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <!-- FAQ Bottom 1 -->
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-3003160606944426"
+           data-ad-slot="6024244399"
+           data-ad-format="auto"></ins>
+      <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </section>
+</div>
